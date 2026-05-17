@@ -1,13 +1,13 @@
 function getFormvalue() {
-   let fName = document.querySelector('input[name="fname"]');
-	let lName = document.querySelector('input[name="lname"]');
-	// let btn = document.querySelector(input[name="Submit"]);
+   //Write your code here
+     //Write your code here
+    // e.preventDefault();
+	let fName = document.querySelector('input[name="fname"]').value.trim();
+	let lName = document.querySelector('input[name="lname"]').value.trim();
 
-	// btn.addEventListenr("click", (e)=>{
-    //     e.preventDefault();
-	// 	alert(`${fName.value} ${lName.value}`)
-	// })
    if(fName!= "" && lName != ""){
      alert(`${fName} ${lName}`);
    }
+
+
 }
